@@ -1,0 +1,24 @@
+/** TheBITLINK's Theme **/
+@import "https://cdn.rawgit.com/TheBITLINK/Discord-Adapta/master/variants/discord-adapta%40shirasaka_koume.css";
+/** PikaDude's Fade Animations **/
+@import "https://cdn.rawgit.com/PikaDude/Discord-Fade-Anims/master/Discord-Fade-Anims.css";
+/** TriggerRimfire's Avatar Shadow **/
+@import "https://cdn.rawgit.com/TriggerRimfire/48b3303f4032fffd952c108260a059a4/raw/302f0672b2b7246a26dc2af0fa43bce90955e68b/discord-avatar-shadow.css";
+/** jakeoid's Emoji Animations **/
+@import "https://cdn.rawgit.com/jakeoid/discord-emoji-anim/master/stylesheet.css";
+/** Lewis' Things **/
+.app {
+    background: url(https://owo.whats-th.is/fcc7c6.png) no-repeat!important;
+    background-size: cover!important;
+}
+
+body {
+    color: #000!important;
+    background-blend-mode: overlay;
+}
+
+.connecting {
+   background: #273239 url(https://owo.whats-th.is/4a765a.png) no-repeat!important;
+   background-position: cover!important;
+   background-size: cover!important;
+}
