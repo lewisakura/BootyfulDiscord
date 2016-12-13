@@ -1,12 +1,397 @@
 /** TheBITLINK's Theme **/
-@import "https://cdn.rawgit.com/TheBITLINK/Discord-Adapta/master/variants/discord-adapta%40shirasaka_koume.css";
+/** @import "https://cdn.rawgit.com/TheBITLINK/Discord-Adapta/master/variants/discord-adapta%40shirasaka_koume.css"; **/
+
+.new-messages-bar, .jump-to-present-bar {
+  left: 0!important;
+  right: 0!important;
+  border-radius: 0!important;
+}
+
+.new-messages-bar {
+  background: rgba(14,161,182, .75)!important;
+}
+
+.guild-header, .guild-header header, .title-wrap, .private-channels .search-bar, .friends-header {
+  background: #13191C!important;
+  min-height: 48px!important;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 48px!important;
+  border: none!important;
+  border-radius: 0;
+}
+
+.guild-header span {
+  line-height: 32px!important;
+}
+
+.header-toolbar button.active, .bot-tags {
+  background: #0EA1B6!important;
+}
+
+.guilds-wrapper {
+  background: #13191C!important;
+}
+
+.guild-channels, .private-channels {
+  background: #232D32!important;
+}
+
+.scroller.guild-channels {
+  padding-top: 0!important;
+}
+
+.new-messages-indicator {
+  font-size: 0!important;
+}
+
+.new-messages-indicator {
+  background: rgba(14,161,182,.75)!important;
+}
+
+.new-messages-indicator-channel:not(.bottom) {
+  top: 48px!important;
+}
+
+.new-messages-indicator span {
+  margin: 0;
+}
+
+.guild.unread:not(.selected):before {
+  width: 10px!important;
+  height: 10px!important;
+  background: #0EA1B6!important;
+  box-shadow: 0 0 0 4px rgba(14,161,182,.25);
+}
+
+.guild.selected::before {
+  background: #0EA1B6!important;
+  width: 9px!important;
+  border-radius: 0!important
+}
+
+.channel-text.selected, .private-channels .channel.selected, .channel-text:hover, .search-result.selected, .search-result:hover, .private-channels .channel:hover, .member:hover, .member.popout-open {
+  background: none!important;
+}
+
+.channel-text.selected:before, .private-channels .channel.selected:before {
+  border-left-color: #0EA1B6!important;
+}
+
+.channel-text.unread:not(.channel-muted):not(.selected):before, .private-channels .channel.unread:not(.channel-muted):not(.selected):before {
+  width: 10px!important;
+  height: 10px!important;
+  background: #0EA1B6!important;
+  box-shadow: 0 0 0 4px rgba(14,161,182,.25);
+}
+
+.badge, .toolbar-badge, .tab-bar-item-primary {
+  box-shadow: none!important;
+  background: #0EA1B6!important;
+  border-color: #13191C!important;
+}
+
+.tab-bar-item-primary .badge {
+  background: #13191C!important;
+  color: #0EA1B6!important;
+}
+
+.active .guild-inner, .selected .guild-inner, .guild:hover .guild-inner {
+  background-color: #0EA1B6!important; 
+}
+
+body {
+  background: #273239 url(https://cdn.discordapp.com/attachments/248274146931245056/255750750439735297/unknown.png) no-repeat!important;
+  background-position: 85% bottom!important;
+  background-attachment: fixed!important;
+  background-size: 30%!important;
+}
+
+.messages-wrapper, .chat>.content, .chat, .divider-red>span, .messages-wrapper .messages .divider:before, #friends, .friends-table {
+  background-color: transparent!important;
+}
+
+.chat .typing {
+  background: transparent!important;
+  bottom: -4px;
+  padding-left: 4px;
+}
+
+.divider.divider-red>div {
+  background: #0EA1B6!important;
+}
+
+.divider-red>span {
+  color: #0EA1B6!important;
+}
+
+.theme-dark .chat form {
+  border: none!important;
+  box-shadow: none!important;
+  background: rgba(0,0,0,.2);
+  margin: 0
+}
+
+.channel-textarea {
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+.channel-textarea-inner {
+  border: none;
+  border-radius: 0;
+  background-color: transparent!important;
+}
+
+.channel-textarea-inner .channel-textarea-upload {
+  border-right: none;
+}
+
+.account {
+  background: #1F282E;
+  border: none;
+  height: 62px!important;
+}
+
+#voice-connection {
+  background: #1F282E;
+  border: none;
+}
+
+.account .btn, #voice-connection .btn {
+  background: rgba(0,0,0,.2);
+}
+.account .btn, .account .btn-group, .account .btn::before, .account .btn::after, #voice-connection .btn, #voice-connection .btn::after, #voice-connection .btn::before, #voice-connection .btn-group {
+  border-color: transparent!important;
+  box-shadow: none!important;
+}
+
+.channel-members {
+  background: rgba(0,0,0,.2)!important;
+}
+
+.chat .scroller::-webkit-scrollbar-button, .chat .scroller::-webkit-scrollbar-track-piece, .friends-table .scroller::-webkit-scrollbar-button, .friends-table .scroller::-webkit-scrollbar-track-piece {
+  background-color: transparent!important;
+  border: transparent!important;
+}
+
+.chat .scroller::-webkit-scrollbar-button, .friends-table .scroller::-webkit-scrollbar-button {
+  height: 0!important;
+}
+
+.chat .scroller::-webkit-scrollbar-thumb, .friends-table .scroller::-webkit-scrollbar-thumb {
+  border-color: transparent!important;
+}
+
+.friends-row:hover {
+  background: none!important;
+  box-shadow: none!important;
+}
+
+.friends-row {
+  border-color: transparent!important;
+}
+
+.friends-action {
+  background-color: rgba(0,0,0,.2)!important;
+}
+
+code, pre, .messages-popout .message-group, .invite-button {
+  background: rgba(0,0,0,.1)!important;
+}
+
+pre, .messages-popout .message-group, .invite-button {
+  border-color: rgba(0,0,0,.2)!important;
+}
+
+.embed {
+  background: rgba(0,0,0,.05)!important;
+  border-color: rgba(0,0,0,.1)!important;
+}
+
+.themed-popout .header {
+  background: #13191C!important;
+}
+
+.channel-textarea-autocomplete-inner header {
+  background: #13191C!important;
+  border-bottom: none!important;
+}
+
+.themed-popout, .channel-textarea-autocomplete-inner {
+  background: #1F282E!important;
+  border: none!important;
+  border-radius: 0!important;
+  border-bottom: 4px solid transparent!important;
+}
+
+.channel-textarea-autocomplete-inner ul li.active {
+  background: rgba(14,161,182,.25)!important;
+}
+
+.channel-textarea-autocomplete-inner:after {
+  border: none!important
+}
+
+.has-more button {
+  background: rgba(14,161,182,.75)!important;
+  border: none!important;
+  color: white!important;
+}
+
+.divider:not(.divider-red) div, .divider:not(.divider-red) span {
+  background: rgba(0,0,0,.2)!important;
+}
+
+.edit-message .channel-textarea-inner {
+  border-bottom: 2px solid rgb(14,161,182)!important;
+}
+
 /** PikaDude's Fade Animations **/
-@import "https://cdn.rawgit.com/PikaDude/Discord-Fade-Anims/master/Discord-Fade-Anims.css";
+/** @import "https://cdn.rawgit.com/PikaDude/Discord-Fade-Anims/master/Discord-Fade-Anims.css"; **/
+
+.message:not(.message-sending), .message-content:not(.message-sending), .image:not(.message-sending), .tooltip, .guild, .section, .context-menu, .friends-row, .channel, .user-settings-modal, .channel-voice-states, .selected:before, .markdown-modal, .icon-muted, .icon-deafened, .avatar-large:not(.message-sending), .empty-message, .popout-menu {
+    animation: PikaDude 0.5s;
+}
+
+.user-popout, .emoji-picker, .popout, .option-popout {
+    animation: PikaDude 0.2s;
+}
+
+.channel-members {
+    animation: PikaDude 1s;
+}
+
+@keyframes PikaDude {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
+}
+
 /** TriggerRimfire's Avatar Shadow **/
-@import "https://cdn.rawgit.com/TriggerRimfire/48b3303f4032fffd952c108260a059a4/raw/302f0672b2b7246a26dc2af0fa43bce90955e68b/discord-avatar-shadow.css";
+/** @import "https://cdn.rawgit.com/TriggerRimfire/48b3303f4032fffd952c108260a059a4/raw/302f0672b2b7246a26dc2af0fa43bce90955e68b/discord-avatar-shadow.css"; **/
+
+.message-group .avatar-large {
+    margin-left: 4px;
+}
+.avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.7);
+}
+
 /** jakeoid's Emoji Animations **/
-@import "https://cdn.rawgit.com/jakeoid/discord-emoji-anim/master/stylesheet.css";
-/** Lewis' Things **/
+/** @import "https://cdn.rawgit.com/jakeoid/discord-emoji-anim/master/stylesheet.css"; **/
+
+/** 
+
+    DISCORD EMOJI ANIMATIONS. (V.05)
+    --------------------------------
+
+    Hey, heres a pretty cool improvement to your Discord client.
+    Some basic animations to some emoji! They're not very popular
+    emoji though. If you have any you'd like animated please let
+    me know @jakeoid#6284.
+
+    https://owo.whats-th.is/d8ef5d.gif
+
+    **/
+
+/** ******************** **
+	Hearts
+	** ******************** **/ 
+
+	/** Heart       **/ 
+	img[alt*=":heart:"], 
+	img[alt*=":hearts:"], 
+	img[alt*=":green_heart:"], 
+	img[alt*=":blue_heart:"], 
+	img[alt*=":purple_heart:"],
+	img[alt*=":yellow_heart:"], 
+	img[alt*=":heartbeat:"], 
+	img[alt*=":heartpulse:"], 
+	img[alt*=":black_heart:"], 
+	img[alt*=":sparkling_heart:"] { animation: heartbeat 1s infinite;}
+
+/** ******************** **
+	Emoji
+	** ******************** **/
+
+	/** Money Wings **/ img[alt*=":money_with_wings:"] {animation: wobble 2s infinite;}
+	/** Kiss        **/ img[alt*=":kiss:"] {animation: heartbeat 1s infinite;}
+	/** Hammer      **/ img[alt*=":hammer:"] {animation: wobble 0.5s infinite;}
+	/** Pickaxe     **/ img[alt*=":pick:"] {animation: wobble 0.5s infinite;}
+	/** Bomb        **/ img[alt*=":bomb:"] {animation: bomb 2s infinite;}
+	/** Boom 		**/ img[alt*=":boom:"] {animation: boom 2s infinite;}
+	/** Eyes 		**/ img[alt*=":eyes:"] {animation: eyes 4s infinite;animation-timing-function:steps(1);}
+
+	/** Heart Eyes  **/ img[alt*=":heart_eyes:"] {animation: heartbeat 1s infinite;}
+	/** Joyful      **/ img[alt*=":joy:"] {animation: joy 2s infinite;}
+	/** Upside Down **/ img[alt*=":upside_down:"] {animation: wobble 2s infinite;}
+	/** Scream      **/ img[alt*=":scream:"] {animation: scare 2s infinite;}
+	/** ROFL        **/ img[alt*=":rofl:"] {animation: rofl 2s infinite;}
+	/** Sneezing    **/ img[alt*=":sneezing_face:"] {animation: wobble 1s infinite;}
+
+	/** Joyful Cat  **/ img[alt*=":joy_cat:"] {animation: joy 2s infinite;}
+	/** Heart Eyes  **/ img[alt*=":heart_eyes_cat:"] {animation: heartbeat 1s infinite;}
+
+	/** Waving      **/ 
+
+	img[src*="/assets/5999436f48c8f7835827894e40c1abc3.svg"] ,
+	img[src*="/assets/85c50026a1c1c5650a380b1093f5bf4d.svg"] ,
+	img[src*="/assets/f9b126045cd4cf9db0659eaae3532d10.svg"] ,
+	img[src*="/assets/1e332e8ed4d42b0df8f45240faa418e3.svg"] ,
+	img[src*="/assets/913d69eb7de899273c246f4e6f901c2d.svg"] ,
+	img[src*="/assets/dfa1d049eb68962bf88053707242db53.svg"] {animation: wobble 2s infinite;}
+
+/** ******************** **
+	Sports
+	** ******************** **/
+
+	/** Soccer      **/ img[alt*=":soccer:"] {animation: rotate 2s infinite;} 
+	/** Basketball  **/ img[alt*=":basketball:"] {animation: rotate 2s infinite;}
+	/** Baseball    **/ img[alt*=":baseball:"] {animation: rotate 2s infinite;} 
+	/** Tennis      **/ img[alt*=":tennis:"] {animation: rotate 2s infinite;}
+
+/** ******************** **
+	Tech
+	** ******************** **/
+
+	/** Gear        **/ img[alt*=":gear:"] {animation: rotate 2s infinite;}
+	/** Disc & CD   **/ img[alt*=":cd:"], img[alt*=":dvd:"] {animation: rotate 2s infinite;} 
+
+/** ******************** **
+	Etc
+	** ******************** **/
+
+	/** Snowflake   **/ img[alt*=":snowflake:"] {animation: rotate 2s infinite;}
+	/** Sun         **/ img[alt*=":sunny:"] {animation: rotate 2s infinite;}
+	/** Hourglass   **/ img[alt*=":hourglass:"] {animation: hourglass 2s infinite;}
+
+	/** ************************************************ **/
+	/** CSS KEYFRAMES BEGIN HERE, ITS GOING TO GET MESSY **/
+	/** ************************************************ **/
+
+	@keyframes wobble	{0%,100%{transform:rotate(20deg)}50%{transform:rotate(-20deg)}}
+	@keyframes scare	{0%,100%{transform:rotate(9deg)}50%{transform:rotate(-9deg)}}
+	@keyframes hourglass{0%,100%,41%{transform:rotate(0)}20%,40%{transform:rotate(-180deg)}}
+	@keyframes rotate 	{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+	@keyframes rofl 	{0%{transform:rotate(45deg)}100%{transform:rotate(404deg)}}
+	@keyframes heartbeat{0%,100%,40%,80%{transform:scale(.75)}20%,60%{transform:scale(1)}}
+	@keyframes joy 		{0%,100%,50%{transform:scale(.9)}25%,75%{transform:scale(1)}}
+	@keyframes boom 	{0% {transform:scale(.1)}20% {transform:scale(1)}80% {transform:scale(1);opacity: 1;}100%{opacity: 0;}}
+	@keyframes bomb 	{0%,100%,20%{transform:scale(1)}90%{transform:scale(.6)}95%{transform:scale(1.5)}}
+	@keyframes eyes 	{0%,25%,75%{transform:scaleX(1)}50%,100%{transform:scaleX(-1)}}
+
+	/** ******* **/
+
+/** TripingPC's User Popouts **/
+/** @import "https://cdn.rawgit.com/TripingPC/discord-CSSes/master/status-user-popout.css"; **/
+
+/* Disabled for the time being. */
+
+/** Lewis' Mods **/
 .app {
     background: url(https://owo.whats-th.is/fcc7c6.png) no-repeat!important;
     background-size: cover!important;
@@ -21,4 +406,11 @@ body {
    background: #273239 url(https://owo.whats-th.is/4a765a.png) no-repeat!important;
    background-position: cover!important;
    background-size: cover!important;
+}
+
+.friends-icon {
+	background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_question_answer_white_24px.svg)!important;
+	opacity: 0.8;
+	margin-top: 4px;
+	background-size: 50%!important
 }
