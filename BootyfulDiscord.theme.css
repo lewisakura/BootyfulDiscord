@@ -386,10 +386,85 @@ pre, .messages-popout .message-group, .invite-button {
 
 	/** ******* **/
 
-/** TripingPC's User Popouts **/
+/** TripingPC's Status User Popouts **/
 /** @import "https://cdn.rawgit.com/TripingPC/discord-CSSes/master/status-user-popout.css"; **/
 
-/* Disabled for the time being. */
+.user-popout{box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.5)!important;}
+
+.user-popout .avatar-wrapper .avatar-popout{
+	z-index:8!important;
+	border:none!important;
+	box-shadow: 0px 0px 0px 2.4px rgba(255,255,255,0.42);
+}
+
+.user-popout .header{
+	border-bottom:rgba(255,255,255,0.42) 2.7px solid!important;
+	background:none!important;
+}
+
+.avatar-popout .status{
+	visibility:visible!important;
+	z-index:-1!important;
+	border-radius:0px!important;
+	width:250px!important;
+	height:430px!important;
+	top:-22px!important;
+	border:none!important;
+	left:-80px!important;
+	-webkit-filter:brightness(80%)!important;
+}
+
+.activity{
+	visibility:hidden;
+	padding-left:12px;
+	padding-right:12px;
+	letter-spacing:-8px;
+}
+
+.activity strong{
+	visibility:visible!important;
+	-webkit-filter:brightness(700%)!important;
+	width:220px!important;
+	letter-spacing:0px!important;
+}
+
+.activity strong:before{
+	content:"🎮 "!important;
+}
+
+.user-popout .username-wrapper .activity, .username, .discriminator{
+	color:white!important;
+}
+
+.nickname{
+	font-size:20px!important;
+	line-height:27px!important;
+}
+
+.live-on-twitch{
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);
+	border:none!important;
+	margin-bottom:-2.4px!important;
+	z-index:10;
+}
+
+.bot-tag.bot-tag-invert{
+	background:#36393e;
+	color:#ffffff!important;
+}
+
+.user-popout .username-wrapper .activity, .username,
+.discriminator {
+  color: inherit !important;
+}
+
+.user-popout .header.streaming {
+    background-color: #593695 !important;
+}
+
+#user-profile-modal .header .header-info .header-info-inner .activity {
+  color: inherit !important;
+}
 
 /** Lewis' Mods **/
 .app {
@@ -409,8 +484,59 @@ body {
 }
 
 .friends-icon {
-	background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_question_answer_white_24px.svg)!important;
-	opacity: 0.8;
-	margin-top: 4px;
-	background-size: 50%!important
+   background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_question_answer_white_24px.svg)!important;
+   opacity: 0.8;
+   margin-top: 4px;
+   background-size: 50%!important
+}
+/** Discord Bots Special **/
+
+.user-name:not([style]):after {
+    font-family: 'Comic Sans MS';
+    font-size: 7.5px;
+    font-weight: 600;
+    margin-left: 6px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    line-height: 16px;
+    flex-shrink: 0;
+    color: rgb(255, 255, 255);
+    background: rgb(114, 137, 218);
+    padding: 1px 2px;
+    border-radius: 3px;
+    content: 'White Name';
+}
+
+.user-name:empty:after {
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 6px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    line-height: 16px;
+    flex-shrink: 0;
+    color: rgb(255, 255, 255);
+    background: rgb(114, 137, 218);
+    padding: 1px 2px;
+    border-radius: 3px;
+    content: 'a blank name';
+}
+
+/** A tag for me (thanks Alex) **/
+
+.avatar-small[style*='96269247411400704']+.member-inner .member-username .member-username-inner:after,
+.avatar-large[style*='96269247411400704']+.comment .username-wrapper .user-name:after {
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 6px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    line-height: 16px;
+    flex-shrink: 0;
+    color: rgb(255, 255, 255);
+    background: rgb(219, 39, 39);
+    padding: 1px 2px;
+    border-radius: 3px;
+    content: 'Theme Dev';
 }
