@@ -490,6 +490,35 @@ body {
    background-size: 50%!important
 }
 
+.user-popout .body {
+   background: #332e2e;
+}
+
+.user-popout .footer {
+   background: #2b2727;
+   border-top: 0px;
+}
+
+.user-popout .quick-message {
+   background: #2b2727;
+   color: white;
+}
+
+.note textarea:focus {
+   background: #332e2e;
+}
+
+.avatar-large[style*="a_"] + .comment .message.first .body .username-wrapper:after {
+   background-image: url(/assets/65f0a0df5563e21de7b1aeeafaf31d78.svg);
+   background-size: 20px 20px;
+   display: inline-block;
+   position: relative;
+   top: 2px;
+   width: 20px; 
+   height: 17px;
+   content:"	";
+}
+
 /** Ovyerus' Edited Pencil **/
 
 .message-group .comment .edited {
