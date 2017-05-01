@@ -42,10 +42,6 @@
 
 /** Lewis' Mods **/
 
-.app {
-  background: rgba(0, 0, 0, 0.75) !important;
-}
-
 body {
   background: url("https://discord.is-pretty.sexy/d9ab88.jpg") !important;
   background-size: cover !important;
