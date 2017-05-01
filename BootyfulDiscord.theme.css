@@ -82,5 +82,5 @@ body {
 .theme-dark .user-settings-account:after,
 .theme-light .user-settings-account:after {
   color: var(--accent); font-weight: bold;
-  content: "BootyfulDiscord 2.0.2 (based off AlexFlipnote's theme)";
+  content: "BootyfulDiscord 2.0.2 (based off AlexFlipnote's theme) | Check GitHub for changelog | https://github.com/LewisTehMinerz/BootyfulDiscord";
 }
