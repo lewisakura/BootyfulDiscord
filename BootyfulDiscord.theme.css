@@ -78,3 +78,9 @@ body {
 .note textarea:focus {
    background: #332e2e;
 }
+
+.theme-dark .user-settings-account:after,
+.theme-light .user-settings-account:after {
+  color: var(--accent); font-weight: bold;
+  content: "test";
+}
