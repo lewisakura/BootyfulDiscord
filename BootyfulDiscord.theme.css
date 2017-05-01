@@ -10,6 +10,11 @@
 /** AlexFlipnote's Theme **/
 @import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/theme.css";
 @import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/transparent.css";
+/** transparent settings **/
+.sidebar-region .content-region .scroller {
+	background: transparent !important;	
+}
+/** end **/
 @import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/highlightJS.css";
 @import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/customDnD.css";
 @import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/hideSearch.css";
@@ -43,7 +48,7 @@
 /** Lewis' Mods **/
 
 .app {
-	background: rgba(0, 0, 0, 0.75);
+   background: rgba(0, 0, 0, 0.75);
 }
 
 body {
