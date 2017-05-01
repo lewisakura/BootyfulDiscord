@@ -1,9 +1,9 @@
 /** PikaDude's Fade Animations **/
-@import "https://cdn.rawgit.com/PikaDude/Discord-Fade-Anims/master/Discord-Fade-Anims.css";
+@import "https://rawgit.com/PikaDude/Discord-Fade-Anims/master/Discord-Fade-Anims.css";
 /** TriggerRimfire's Avatar Shadow **/
-@import "https://cdn.rawgit.com/TriggerRimfire/48b3303f4032fffd952c108260a059a4/raw/302f0672b2b7246a26dc2af0fa43bce90955e68b/discord-avatar-shadow.css";
+@import "https://rawgit.com/TriggerRimfire/48b3303f4032fffd952c108260a059a4/raw/302f0672b2b7246a26dc2af0fa43bce90955e68b/discord-avatar-shadow.css";
 /** jakeoid's Emoji Animations **/
-@import "https://cdn.rawgit.com/jakeoid/discord-emoji-anim/master/stylesheet.css";
+@import "https://rawgit.com/jakeoid/discord-emoji-anim/master/stylesheet.css";
 /** Vap0r1ze's Nitro Badges **/
 @import "https://rawgit.com/Vap0r1ze/Discord-Nitro-Badges/master/nitro.css";
 
@@ -82,5 +82,5 @@ body {
 .theme-dark .user-settings-account:after,
 .theme-light .user-settings-account:after {
   color: var(--accent); font-weight: bold;
-  content: "test";
+  content: "BootyfulDiscord 2.0.2 (based off AlexFlipnote's theme)";
 }
