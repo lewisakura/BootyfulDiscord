@@ -1,6 +1,21 @@
 # BootyfulDiscord
 Get [BeautifulDiscord](https://github.com/leovoel/BeautifulDiscord) to use this theme.
 
+Custom Background
+=================
+
+Want a custom background? Use this!
+```css
+body {
+  background: url("https://url.to.image.com/lovely/image.png") !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+```
+
+
 Changelog
 =========
 
