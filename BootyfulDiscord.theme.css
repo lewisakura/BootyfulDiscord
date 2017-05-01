@@ -20,13 +20,6 @@
 @import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/hideSearch.css";
 /**@import "https://rawgit.com/martmists/Discord_Theme/master/assets/statusPopout.css";**/ /* Disabled while waiting for a patch */
 
-/** Martmist's Custom Fonts **/
-@import "https://rawgit.com/martmists/DiscordFonts/master/DiscordFonts.css";
-/** and a mod to make it look nicer **/
-.timestamp, .tooltip {
-    font-family: "Raleway"!important;
-}
-
 /** Ovyerus' Edited Pencil **/
 
 .message-group .comment .edited {
