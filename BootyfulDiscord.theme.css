@@ -10,15 +10,17 @@
 /** AlexFlipnote's Theme **/
 @import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/theme.css";
 @import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/transparent.css";
+
+@import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/highlightJS.css";
+@import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/customDnD.css";
+@import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/hideSearch.css";
+/**@import "https://rawgit.com/martmists/Discord_Theme/master/assets/statusPopout.css";**/ /* Disabled while waiting for a patch */
+
 /** transparent settings **/
 .sidebar-region, .content-region, .scroller, .ui-standard-sidebar-view {
 	background: transparent !important;	
 }
 /** end **/
-@import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/highlightJS.css";
-@import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/customDnD.css";
-@import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/hideSearch.css";
-/**@import "https://rawgit.com/martmists/Discord_Theme/master/assets/statusPopout.css";**/ /* Disabled while waiting for a patch */
 
 /** Ovyerus' Edited Pencil **/
 
