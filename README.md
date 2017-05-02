@@ -19,6 +19,12 @@ body {
 Changelog
 =========
 
+>2.0.3
+```patch
++ added firacode font back :^)
++ transparent server/user settings
+```
+
 >2.0.2
 ```patch
 - removed zoom from default theme
