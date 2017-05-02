@@ -21,6 +21,7 @@ Changelog
 
 >2.0.3
 ```patch
+- remove discordfonts
 + added firacode font back :^)
 + transparent server/user settings
 ```
