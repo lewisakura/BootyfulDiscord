@@ -1,5 +1,5 @@
 # BootyfulDiscord
-Get [BeautifulDiscord](https://github.com/leovoel/BeautifulDiscord) to use this theme.
+Get [MyDiscord](https://github.com/justinoboyle/mydiscord) to use this theme.
 
 Custom Background
 =================
