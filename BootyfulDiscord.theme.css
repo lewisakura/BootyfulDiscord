@@ -17,7 +17,7 @@
 
 /** transparent settings **/
 .sidebar-region, .content-region, .scroller, .ui-standard-sidebar-view {
-	background: transparent !important;	
+	background: rgba(0, 35, 35, .95) !important;	
 }
 /** end **/
 
@@ -54,31 +54,26 @@ body {
 }
 
 .friends-icon {
-   background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_question_answer_white_24px.svg)!important;
+   background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_question_answer_white_24px.svg) !important;
    opacity: 0.8;
    margin-top: 4px;
    background-size: 50%!important;
 }
 
 .user-popout .body {
-   background: #332e2e;
+   background: rgb(0, 46, 46);
 }
 
 .user-popout .footer {
-   background: #2b2727;
+   background: rgb(0, 35, 35);
    border-top: 0px;
-}
-
-.user-popout .quick-message {
-   background: #2b2727;
-   color: white;
 }
 
 .note textarea:focus {
    background: #332e2e;
 }
 
-/** Channel Notice Background **/
+/** Backgrounds **/
 .channel-notices .channel-notice.quickswitcher-notice {
 	background: url(/assets/8fdb69b7684b8e1ecb3fdde909daca41.svg) no-repeat center 35px !important;
 }
@@ -87,12 +82,18 @@ body {
 	background-color: rgba(54, 57, 62, .5) !important;
 }
 
+.tooltip.tooltip-top.tooltip-normal, 
+.tooltip.tooltip-left.tooltip-normal,
+.tooltip.tooltip-right.tooltip-normal {
+	background: var(--dark-highlight);
+}
+
 /** Theme Colors **/
 :root {
 	--dark-primary: rgba(0, 30, 33, .90);
 	--dark-secondary: rgba(0, 0, 0, 0);
-	--dark-highlight: rgb(10, 45, 50);
-	--code-bg: rgba(0,0,0,0);
+	--dark-highlight: rgb(10, 50, 55);
+	--code-bg: rgba(0, 0, 0, 0);
 }
 
 /** Nice Code Blocks **/
