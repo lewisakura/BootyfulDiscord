@@ -99,7 +99,7 @@ body {
 /** Nice Code Blocks **/
 @font-face {
     font-family: firacode;
-    src: url("https://rawgit.com/bollwyvl/firacode-webfont/master/FiraCode-Regular.ttf");
+    src: url("https://rawgit.com/tonsky/FiraCode/master/distr/ttf/FiraCode-Regular.ttf");
 }
 
 code {
