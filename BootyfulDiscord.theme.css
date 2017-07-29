@@ -49,7 +49,7 @@ body {
   background: url("https://discord.is-pretty.sexy/d9ab88.jpg") !important;
   background-size: cover !important;
   background-attachment: fixed !important;
-  background-position: center !important;
+  background-position: right !important;
   background-repeat: no-repeat !important;
 }
 
@@ -57,7 +57,7 @@ body {
    background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_question_answer_white_24px.svg)!important;
    opacity: 0.8;
    margin-top: 4px;
-   background-size: 50%!important
+   background-size: 50%!important;
 }
 
 .user-popout .body {
@@ -76,6 +76,23 @@ body {
 
 .note textarea:focus {
    background: #332e2e;
+}
+
+/** Channel Notice Background **/
+.channel-notices .channel-notice.quickswitcher-notice {
+	background: url(/assets/8fdb69b7684b8e1ecb3fdde909daca41.svg) no-repeat center 35px !important;
+}
+
+.channel-notices .channel-notice .message .btn {
+	background-color: rgba(54, 57, 62, .5) !important;
+}
+
+/** Theme Colors **/
+:root {
+	--dark-primary: rgba(0, 30, 33, .90);
+	--dark-secondary: rgba(0, 0, 0, 0);
+	--dark-highlight: rgb(10, 45, 50);
+	--code-bg: rgba(0,0,0,0);
 }
 
 /** Nice Code Blocks **/
