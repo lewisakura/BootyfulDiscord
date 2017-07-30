@@ -16,9 +16,11 @@
 /**@import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/statusPopout.css";**/ /* Disabled while waiting for a patch */
 
 /** transparent settings **/
-.sidebar-region, .content-region, .scroller, .ui-standard-sidebar-view, div[class*="scrollerWrap-"], div[class*="container-"] {
-	background: rgba(0, 35, 35, .95) !important;	
+
+.channel-members  {
+	background: rgba(0, 0, 0, 0) !important;
 }
+
 /** end **/
 
 /** Ovyerus' Edited Pencil **/
@@ -73,7 +75,18 @@ body {
    background: #332e2e;
 }
 
+/** Slider white bar fix **/
+
+.scroller {
+	overflow-x: hidden !important;
+}
+
 /** Backgrounds **/
+
+div[class*="scrollerTrack-"] {
+	background: rgb(0, 45, 45) !important;
+}
+
 .channel-notices .channel-notice.quickswitcher-notice {
 	background: url(/assets/8fdb69b7684b8e1ecb3fdde909daca41.svg) no-repeat center 35px !important;
 }
@@ -89,6 +102,7 @@ body {
 }
 
 /** Theme Colors **/
+
 :root {
 	--dark-primary: rgba(0, 30, 33, .90);
 	--dark-secondary: rgba(0, 0, 0, 0);
@@ -97,6 +111,7 @@ body {
 }
 
 /** Nice Code Blocks **/
+
 @font-face {
     font-family: firacode;
 	src: url("https://rawgit.com/tonsky/FiraCode/master/distr/ttf/FiraCode-Regular.ttf");
@@ -104,6 +119,10 @@ body {
 
 code {
 	font-family: firacode !important;
+}
+
+code.inline {
+	background: rgba(0, 0, 0, .5) !important;
 }
 
 /** Version **/
