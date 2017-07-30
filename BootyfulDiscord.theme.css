@@ -16,7 +16,7 @@
 /**@import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/statusPopout.css";**/ /* Disabled while waiting for a patch */
 
 /** transparent settings **/
-.sidebar-region, .content-region, .scroller, .ui-standard-sidebar-view {
+.sidebar-region, .content-region, .scroller, .ui-standard-sidebar-view, div[class*="scrollerWrap-"], div[class*="container-"] {
 	background: rgba(0, 35, 35, .95) !important;	
 }
 /** end **/
@@ -99,7 +99,7 @@ body {
 /** Nice Code Blocks **/
 @font-face {
     font-family: firacode;
-    src: url("https://rawgit.com/tonsky/FiraCode/master/distr/ttf/FiraCode-Regular.ttf");
+	src: url("https://rawgit.com/tonsky/FiraCode/master/distr/ttf/FiraCode-Regular.ttf");
 }
 
 code {
